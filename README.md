@@ -6,3 +6,11 @@ Vagrantfile to set up four Ubuntu servers using Vagrant. Configures each server 
  server1.vm.network "public_network", bridge: "wlp2s0"
 ```
 wlp2s0 is my laptop network adapter.
+
+make sure Vagrant install
+```
+cd vmserver
+git clone ----repo address---
+vagrant up
+
+```
